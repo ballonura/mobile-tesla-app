@@ -1,8 +1,7 @@
 # Demo
 
 ```bash
-Soon...
-
+https://mobile-tesla-app.vercel.app/
 ```
 
 ### Preview
