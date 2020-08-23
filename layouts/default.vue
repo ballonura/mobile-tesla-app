@@ -1,7 +1,12 @@
 <template>
-  <div class="flex flex-col min-h-screen">
-    <my-header style="flex-basis: 75px;"></my-header>
-    <Nuxt class="flex-1" />
+  <div>
+    <div class="flex flex-col min-h-screen sm:hidden">
+      <my-header style="flex-basis: 75px;"></my-header>
+      <Nuxt class="flex-1" />
+    </div>
+    <div class="hidden sm:block">
+      Not yet implemented... :)
+    </div>
   </div>
 </template>
 

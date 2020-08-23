@@ -40,7 +40,9 @@
         </p>
       </div>
       <div class="flex justify-center items-center" style="flex-basis: 140px;">
-        <button class="rounded-full border border-red w-10/12 h-16 uppercase text-xl font-medium focus:outline-none">ORDER NOW</button>
+        <nuxt-link class="flex justify-center items-center rounded-full border border-red w-10/12 h-16 uppercase text-xl font-medium focus:outline-none" to="/order">
+          <button>ORDER NOW</button>
+        </nuxt-link>
       </div>
     </div>
   </div>
